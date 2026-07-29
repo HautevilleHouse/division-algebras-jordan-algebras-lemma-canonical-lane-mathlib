@@ -1,0 +1,10 @@
+import canonicalLaneMathlib.AdmissibleClass
+
+namespace HautevilleHouse
+namespace DivisionAlgebrasJordanAlgebrasLemmaCanonicalLaneLean
+
+def DivisionAlgebraWitnessClosed (O : DivisionAlgebraAdmittedObject) : Prop :=
+  O.admitsDivision
+
+end DivisionAlgebrasJordanAlgebrasLemmaCanonicalLaneLean
+end HautevilleHouse
